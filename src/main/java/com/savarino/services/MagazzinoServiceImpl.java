@@ -106,5 +106,4 @@ public class MagazzinoServiceImpl implements MagazzinoService {
 		// TODO Auto-generated method stub
 		return magazzinoDAO.save(m);
 	}
-
 }

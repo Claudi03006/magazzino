@@ -11,7 +11,7 @@ public class Prodotto {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 	private String nome;
-	private  String descrizione;
+	private String descrizione;
 	private int giacenza;
 	public int getId() {
 		return id;
@@ -39,5 +39,6 @@ public class Prodotto {
 	}
 	
 	
-	
+ 
 }
+

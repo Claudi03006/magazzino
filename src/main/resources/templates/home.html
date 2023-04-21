@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title th:text="${titolo}">Insert title here</title>
+</head>
+<body>
+<h1 th:text="${titolo}"></h1> 
+
+<a th:href="@{magazzino}" th:text="magazzino"></a>
+<a th:href="@{carico}" th:text="carico"></a>
+<a th:href="@{scarico}" th:text="scarico"></a>
+
+</body>
+</html>

@@ -10,9 +10,11 @@ import jakarta.persistence.OneToOne;
 
 @Entity
 public class Magazzino {
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
+	
 	private LocalDate data;
 	private int quantita;
 	
@@ -51,5 +53,9 @@ public class Magazzino {
 		this.prodotto = prodotto;
 	}
 	
+	
+	
+	
 
 }
+
